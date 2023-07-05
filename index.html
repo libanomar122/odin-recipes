@@ -3,14 +3,64 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
     <title>Odin Recipes</title>
 </head>
 <body>
-    <h1>Odin Recipes</h1>
+    <!-- <h1>Odin Recipes</h1>
     <ul>
         <li><a href="recipes/lasagna.html">Lasagna</a></li>
         <li><a href="recipes/burger.html">Burger</a></li>
         <li><a href="recipes/burrito.html">Burrito</a></li>
-    </ul>
+    </ul> -->
+
+    <header class="container header-container">
+        <nav class="nav">
+            <div class="nav-logo">
+                <h2><span class="logo">O</span>din-<span class="logo">R</span>ecipes</h2>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-menu-item"><a href="#">Link One</a></li>
+                <li class="nav-menu-item"><a href="#">Link Two</a></li>
+                <li class="nav-menu-item"><a href="#">Link Three</a></li>
+                <li class="nav-menu-item"><a href="#">Link Four</a></li>
+                <li class="nav-menu-item"><a href="#">Link Five</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container view">
+        <section class="content">
+            <img class="content-banner" src="images/banner.jpg" alt="Banner">
+            <h3 class="content-title">Learn How Cook</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet libero vitae recusandae quod numquam. Voluptate quam quas neque et quos laboriosam enim culpa, molestias assumenda est mollitia provident porro unde.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis corporis, libero perspiciatis quae iusto natus quam, ipsum aut laudantium eos eius molestiae voluptatem quasi ipsam mollitia quas, architecto perferendis vel!</p>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsam optio molestiae esse voluptatem, laboriosam, nihil quidem atque itaque labore unde non. Impedit modi molestiae ex, rem temporibus earum dolore numquam.</p>
+        </section>
+        <aside class="sidebar">
+            <h3 class="sidebar-title">Popular Recipes</h3>
+            <div class="sidebar-item">
+                <img class="sidebar-item-img" src="images/lasagna.jpg" alt="Lasagna">
+                <div>
+                    <h3><a href="recipes/lasagna.html">Lasagna</a></h3>
+                    <p>Short Description of the food goes here.</p>
+                </div>
+            </div>
+            <div class="sidebar-item">
+                <img class="sidebar-item-img" src="images/burger.jpg" alt="Lasagna">
+                <div>
+                    <h3><a href="recipes/burger.html">Burger</a></h3>
+                    <p>Short Description of the food goes here.</p>
+                </div>
+            </div>
+            <div class="sidebar-item">
+                <img class="sidebar-item-img" src="images/burrito.jpg" alt="Lasagna">
+                <div>
+                    <h3><a href="recipes/burrito.html">Burrito</a></h3>
+                    <p>Short Description of the food goes here.</p>
+                </div>
+            </div>
+        </aside>
+    </main>
 </body>
 </html>
