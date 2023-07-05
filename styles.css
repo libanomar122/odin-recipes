@@ -12,6 +12,11 @@ body {
     background-color: #E7E9EB;
 }
 
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
 .container {
     padding-left: 200px;
     padding-right: 200px;
@@ -41,6 +46,10 @@ body {
     text-decoration: none;
     color: black;
     font-weight: bold;
+}
+
+.nav-menu-item:hover a {
+    color: #c656f2;
 }
 
 .logo {
@@ -101,4 +110,24 @@ body {
 
 .title, .sidebar-title {
     text-transform: uppercase;
+}
+
+.recipe {
+    background-color: #FFFFFF;
+    padding: 50px;
+}
+
+.recipe-banner {
+    width: 100%;
+    height: auto;
+    margin-bottom: 30px;
+}
+
+.recipe-title {
+    margin-bottom: 30px;
+}
+
+.steps ol, .ingredients ul {
+    padding-right: 50px;
+    padding-left: 50px;
 }
